@@ -1,0 +1,14 @@
+### Root API
+GET http://localhost:8000/
+
+### Create new user
+POST http://localhost:8000/api/v1/user
+Content-Type: application/json
+
+{
+    "fname":"Bijay",
+    "lname":"Nagarkoti",
+    "email":"nagakoti@gmail.com",
+    "phone":"0900000000",
+    "password":"12345678"
+}

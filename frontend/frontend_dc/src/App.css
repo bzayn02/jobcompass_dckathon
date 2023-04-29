@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* General Style */
+.btn-primary.btn-main {
+  background: rgba(23, 231, 164, 1);
+  border: none;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* .pr-0{
+    padding-right: 0 !important;
+  } */
+
+.btn-primary.btn-main:hover {
+  background: rgba(111, 255, 233, 1);
+  color: #333333;
+}
+
+.half-input {
+  display: inline-block;
+  width: 49%;
+}
+
+/* Login Page Style */
+.login {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.loginArt {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.loginArt img {
+  height: 80vh;
+}
+
+.loginForm {
+  align-items: center;
+  background: rgba(0, 176, 255, 1);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  margin-right: calc(50% - 50vh);
+  width: 50vw;
+}
+
+.loginForm form {
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 50px;
+  width: 50%;
+}
+
+.loginForm form .btn-main {
+  width: 150px;
+}
+
+.loginForm form .btn-right {
+  position: absolute;
+  right: 0;
+}
+
+/* Registration Page Style */
+.registration .half-input:last-child {
+  padding-left: 0;
+}
